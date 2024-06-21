@@ -1,15 +1,9 @@
-import Image from "next/image";
 import Navbar from "./components/navbar/page";
-import HeroImg from "../../public/img/Hero section video.png";
+import HomePage from "./(pages)/home";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Image
-        src={HeroImg}
-        alt="Hero Image"
-        style={{ width: "100%", objectFit: "cover" }}
-      />
+      <HomePage />
     </>
   );
 }

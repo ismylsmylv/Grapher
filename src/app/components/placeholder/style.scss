@@ -1,0 +1,35 @@
+@import "../../../../public/styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+.PlaceHolder {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $baseWhite;
+    text-align: center;
+
+    .head {
+        font-family: Oooh Baby;
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+
+    .body {
+        color: $gray07;
+        font-family: Poppins;
+        max-width: 60%;
+        margin-bottom: 30px;
+
+    }
+
+    button {
+        padding: 12px 50px;
+        border: 1px solid $baseWhite;
+        border-radius: 8px;
+        color: $baseWhite;
+        text-transform: uppercase;
+    }
+}
