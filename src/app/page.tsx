@@ -8,7 +8,7 @@ export default function Home() {
       <Image
         src={HeroImg}
         alt="Hero Image"
-        style={{ width: "100vw", objectFit: "cover" }}
+        style={{ width: "100%", objectFit: "cover" }}
       />
     </>
   );

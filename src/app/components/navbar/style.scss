@@ -39,6 +39,7 @@
             align-items: center;
             justify-content: center;
             gap: 40px;
+            font-family: 'Poppins';
 
             .login {
                 font-size: 16px;
@@ -48,12 +49,19 @@
             }
 
             .signup {
-                padding: 15px;
+                line-height: 24px;
+                padding: 10px 45px;
                 color: white;
                 text-transform: uppercase;
                 border-radius: 8px;
                 border: 1px solid $green;
-                background: linear-gradient(180deg, rgba(7, 9, 5, 0.32) 20%, rgba(7, 9, 5, 1) 80%), $green;
+                background: rgb(144, 176, 54);
+                background: linear-gradient(180deg, rgba(144, 176, 54, 1) 13%, rgba(7, 9, 5, 0.32) 87%);
+                transition: 200ms linear;
+
+                &:hover {
+                    background-color: $green;
+                }
             }
         }
     }
