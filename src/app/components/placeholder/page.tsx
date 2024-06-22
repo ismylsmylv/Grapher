@@ -12,7 +12,7 @@ function PlaceHolder({}: Props) {
         diam nisi vestibulum lobortis enim sed rhoncus rutrum. Eleifend tortor
         eu massa cursus adipiscing maecenas eu.
       </div>
-      <button>View Portfolio</button>
+      <button className="buttonWhite">View Portfolio</button>
     </div>
   );
 }

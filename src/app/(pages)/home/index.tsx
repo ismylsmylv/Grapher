@@ -3,6 +3,7 @@ import Image from "next/image";
 import "./style.scss";
 import HeroImg from "../../../../public/img/Hero section video.png";
 import PlaceHolder from "@/app/components/placeholder/page";
+import Services from "@/app/components/services/page";
 type Props = {};
 
 function HomePage({}: Props) {
@@ -14,6 +15,8 @@ function HomePage({}: Props) {
         style={{ width: "100%", objectFit: "cover" }}
       />
       <PlaceHolder />
+      <Services side="left" />
+      <Services side="right" />
     </div>
   );
 }

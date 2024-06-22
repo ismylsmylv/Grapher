@@ -16,3 +16,11 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.buttonWhite {
+    padding: 12px 50px;
+    border: 1px solid $baseWhite;
+    border-radius: 8px;
+    color: $baseWhite;
+    text-transform: uppercase;
+}
