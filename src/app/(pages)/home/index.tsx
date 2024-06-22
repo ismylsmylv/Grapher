@@ -4,6 +4,7 @@ import "./style.scss";
 import HeroImg from "../../../../public/img/Hero section video.png";
 import PlaceHolder from "@/app/components/placeholder/page";
 import Services from "@/app/components/services/page";
+import SlideShow from "@/app/components/slideshow/page";
 type Props = {};
 
 function HomePage({}: Props) {
@@ -17,6 +18,8 @@ function HomePage({}: Props) {
       <PlaceHolder />
       <Services side="left" />
       <Services side="right" />
+      <SlideShow headText="LATEST PHOTOGRAPHY WORKS" />
+      <SlideShow headText="LATEST VIDEOGRAPHY WORKS" />
     </div>
   );
 }
